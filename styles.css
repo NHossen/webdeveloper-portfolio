@@ -107,6 +107,11 @@ nav div li{
 
 /*main section styles */
 
+main{
+    max-width:1140px ;
+    margin: 0 auto;
+}
+
 /* about section styles */
 
 .about{
@@ -115,6 +120,17 @@ nav div li{
     background: #FFF8F3;
     margin: 130px 0;
 
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.info p{
+    color: #757575;
 }
 /* section-title */
 .section-title{
@@ -131,3 +147,6 @@ nav div li{
     text-align: center;
     font-size: 18px;
 }
+
+/* what i do */
+
