@@ -155,5 +155,16 @@ main{
     padding:30px 150px ;
 }
 
+/* Skills description */
+.skills-item{
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 40px;
+}
+.item{
+    width: 150px;
+    height: 220px;
+}
+
 /* A summary of resume */
 
