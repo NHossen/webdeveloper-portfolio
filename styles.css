@@ -3,7 +3,7 @@
 
 *{
     margin:0px ;
-    padding: 0px;
+    padding:0px;
 }
 /* body{
     font-family: 'Open Sans', sans-serif;
@@ -65,15 +65,69 @@ nav div li{
 
 .head-sec{
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+
+    /* background positon is the important to set background imges */
+    background-position:bottom right ;
     /* height: 100vh; */
 }
 
 .banner-container{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .banner-img img{
  width: 500px;
+}
 
+/* banner text */
+.banner-wlc{
+    font-size: 45px;
+    color: rgb(75, 75, 75);
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 8px ;
+    margin-bottom: 20px;
+}
+.banner-text{
+    width: 500px;
+}
+
+.banner-description{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/*main section styles */
+
+/* about section styles */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+
+}
+/* section-title */
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 35px;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
