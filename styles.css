@@ -175,7 +175,7 @@ main section{
 
 .resume-summary{
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .section-titl{
@@ -183,4 +183,42 @@ main section{
     font-size: 30px;
     margin-bottom: 40px;
 }
+.my-education{
+    margin: 40px;
+}
+.my-experience{
+    margin: 40px;
+}
+hr{
+    margin: 15px 0px;
+}
+
+#download{
+  text-align: center;
+  margin: 40px;
+}
+/* footer */
+
+footer{
+    width: 1600px;
+    height: 580px;
+    background-color:#FFF8F3 ;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 200px;
+    
+}
+.link-item{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+}
+.form-item{
+    
+}
+
+
 
