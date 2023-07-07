@@ -13,7 +13,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    /* margin: 0 100px; */
+    padding-top: 40px;
 }
 div h1{
     color: rgb(0, 0, 0);
@@ -59,4 +60,20 @@ nav div li{
     font-weight: 700;
     padding: 15px 35px;
    
+}
+/* heading styles */
+
+.head-sec{
+    background-color: #FFF8F3;
+    /* height: 100vh; */
+}
+
+.banner-container{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-img img{
+ width: 500px;
+
 }
