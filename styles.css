@@ -209,16 +209,19 @@ hr{
 /* footer */
 
 footer{
-    width: 1600px;
-    height: 580px;
+    
+    /* height: 580px; */
     background-color:#FFF8F3 ;
+    padding: 200px;
     margin-top: 50px;
+    
 }
 
 .footer-item{
     display: flex;
     justify-content: space-around;
-   padding-top: 200px;
+    gap: 10px;
+   
     
 }
 .link-item{
@@ -226,7 +229,22 @@ footer{
     gap:10px;
     margin-top: 20px;
 }
-.form-item{
+
+.connect-item{
+    width: 50%;
+}
+.form-item input,textarea{
+    /* width: 50%; */
+display: block;
+margin-bottom: 15px;
+margin-top: 10px;
+padding: 18px 35px;
+color: #757575;
+border: none;
+border-radius: 5px;
+width:100% ;
+
+
     
 }
 
