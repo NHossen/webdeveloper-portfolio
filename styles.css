@@ -65,12 +65,12 @@ nav div li{
 
 .head-sec{
     background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png), url(images/developer.png);
     background-repeat: no-repeat;
 
     /* background positon is the important to set background imges */
-    background-position:bottom right ;
-    /* height: 100vh; */
+    background-position:bottom right ,top left;
+    height: 80vh;
 }
 
 .banner-container{
@@ -80,7 +80,7 @@ nav div li{
     align-items: center;
 }
 .banner-img img{
- width: 500px;
+ width: 573px;
 }
 
 /* banner text */
